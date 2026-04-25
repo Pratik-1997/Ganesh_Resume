@@ -1,0 +1,53 @@
+// Flex Alignments
+.d , .d-flex {
+    display: flex;
+}
+.d-center {
+    justify-content: center;
+    align-items: center;
+}
+
+// Grid Alignments
+.g { 
+    display: grid;
+}
+
+// Justify Content & Align Items
+.jc-c {
+    justify-content: center;
+}
+.jc-sb {
+    justify-content: space-between;
+}
+.jc-sa {
+    justify-content: space-around;
+}
+.jc-se {
+    justify-content: space-evenly;
+}
+.jc-fe {
+    justify-content: flex-end;
+}
+.jc-fs {
+    justify-content: flex-start;
+}
+
+// Align Items
+.ai-c {
+    align-items: center;
+}
+.ai-sb {
+    align-items: space-between;
+}
+.ai-sa {
+    align-items: space-around;
+}
+.ai-se {
+    align-items: space-evenly;
+}
+.ai-fe {
+    align-items: flex-end;
+}
+.ai-fs {
+    align-items: flex-start;
+}

@@ -1,0 +1,39 @@
+
+// Font Weights
+.light {
+    font-weight: 300;
+}
+.regular {
+    font-weight: 400;
+}
+.medium {
+    font-weight: 500;
+}
+.semibold {
+    font-weight: 600;
+}
+.bold {
+    font-weight: 700;
+}
+
+// Text Cases
+.text-uppercase {
+    text-transform: uppercase;
+}
+.text-lowercase {
+    text-transform: lowercase;
+}
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+// Text Alignments
+.text-left {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}

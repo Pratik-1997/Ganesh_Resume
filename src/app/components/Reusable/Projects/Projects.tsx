@@ -1,0 +1,82 @@
+import styles from "./projects.module.scss";
+
+const projects = [
+  { 
+    id: 1,
+    year: "2025",
+    title: "Out of This World",
+    type: "Landing page and visual direction",
+    note: "Created a punchy visual identity with modern interactions.",
+    image: "https://picsum.photos/seed/project-one/1200/900",
+  },
+  {
+    id: 2,
+    year: "2026",
+    title: "Nova Commerce",
+    type: "Product design and UX flow",
+    note: "Redesigned key journeys to improve conversions and clarity.",
+    image: "",
+  },
+  {
+    id: 3,
+    year: "2026",
+    title: "Pulse Studio",
+    type: "Portfolio and brand refresh",
+    note: "Built a modular design system and motion-first storytelling.",
+    image: "https://picsum.photos/seed/project-three/1200/900",
+  },
+];
+
+const Projects = () => {
+  return (
+    <section className={styles.projectsSection}>
+      <div className={`${styles.container} container`}>
+        <h2>Projects</h2>
+        <div className={styles.stackArea}>
+          {projects.map((project, index) => (
+            <article
+              key={project.title}
+              className={styles.projectCard}
+              style={{
+                top: "8rem",
+                marginTop: index === 0 ? "0rem" : "-22rem",
+                zIndex: 10 + index,
+              }}
+            >
+              <div className={styles.badges}>
+                <span className={styles.badge}>{String(project.id).padStart(2, "0")}</span>
+              </div>
+
+              <div className={styles.cardGrid}>
+                <div className={styles.content}>
+                  <p className={styles.year}>{project.year}</p>
+                  <h3>{project.title}</h3>
+                  <p className={styles.note}>{project.note}</p>
+
+                  <div className={styles.meta}>
+                    <h4>Discipline</h4>
+                    <p>{project.type}</p>
+                  </div>
+
+                  <div className={styles.meta}>
+                    <h4>Timeline</h4>
+                    <p>8-10 weeks</p>
+                  </div>
+                </div>
+
+                <div className={styles.mediaWrap}>
+                  <img
+                    src={project.image || `https://picsum.photos/seed/project-${project.id}/1200/900`}
+                    alt={`${project.title} preview`}
+                  />
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Projects;

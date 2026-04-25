@@ -1,0 +1,38 @@
+@use '@/styles/base/var' as *;
+@use '@/styles/base/mixins' as *;
+
+.container_spotlight {
+    height: calc(100vh - 102px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+    h1 {
+        font-size: clamp(7.2rem, 12vw, 16rem);
+        color: $black;
+        font-weight: 300;
+        font-family: 'AppleGaramond-Light';
+        line-height: 0.9;
+        letter-spacing: -2px;
+        text-align: center;
+        margin-bottom: 3rem;
+        > .block {
+            display: block;
+            .fun {
+                font-style: italic;
+                color: $secondary;
+                font-family: 'AppleGaramond-LightItalic';
+                font-weight: 300;
+            }
+        }
+    }
+    p {
+        color: $text;
+        font-size: clamp(1.8rem, 2.3vw, 2.4rem);
+        font-weight: 400;
+        text-align: center;
+        letter-spacing: 0;
+        max-width: 50ch;
+    }
+}

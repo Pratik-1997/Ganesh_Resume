@@ -1,0 +1,36 @@
+@use './var' as *;
+
+// Text Colors
+.text-primary {
+    color: $primary;
+}
+.text-secondary {
+    color: $secondary;
+}
+.text-text {
+    color: $text;
+}
+.text-black {
+    color: $black;
+}
+.text-white {
+    color: $white;
+}
+
+
+// Background Colors
+.bg-primary {
+    background-color: $primary;
+}
+.bg-secondary {
+    background-color: $secondary;
+}
+.bg-text {
+    background-color: $text;
+}
+.bg-black {
+    background-color: $black;
+}
+.bg-white {
+    background-color: $white;
+}

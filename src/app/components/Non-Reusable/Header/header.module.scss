@@ -1,0 +1,33 @@
+@use '@/styles/base/var' as *;
+@use '@/styles/base/mixins' as *;
+
+.container_header {
+    padding: 2.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+        font-size: 1.1rem;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        color: $text;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .open_to_work {
+        font-size: 1rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        color: $text;
+        .circle {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: $primary;
+        }
+    }
+}

@@ -1,0 +1,117 @@
+// Img Fluid 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+// Blocks 
+.d-block {
+    display: block;
+}
+.d-inline {
+    display: inline;
+}
+.d-inline-block {
+    display: inline-block;
+}
+.d-none {
+    display: none;
+}
+
+// Positions
+.pos-rel {
+    position: relative;
+}
+.pos-abs {
+    position: absolute;
+}
+.pos-fixed {
+    position: fixed;
+}
+.pos-sticky {
+    position: sticky;
+}
+.pos-static {
+    position: static;
+}
+
+// Widths
+.w-25 {
+    width: 25%;
+}
+.w-50 {
+    width: 50%;
+}
+.w-75 {
+    width: 75%;
+}
+.w-100 {
+    width: 100%;
+}
+
+// Heights
+.h-25 {
+    height: 25%;
+}
+.h-50 {
+    height: 50%;
+}
+.h-75 {
+    height: 75%;
+}
+.h-100 {
+    height: 100%;
+}
+
+// Max Widths
+.max-w-25 {
+    max-width: 25%;
+}
+.max-w-50 {
+    max-width: 50%;
+}
+.max-w-75 {
+    max-width: 75%;
+}
+.max-w-100 {
+    max-width: 100%;
+}
+
+// Cursor
+.cursor-pointer {
+    cursor: pointer;
+}
+
+// Overflow 
+.overflow-hidden {
+    overflow: hidden;
+}
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+.overflow-y-hidden {
+    overflow-y: hidden;
+}
+.overflow-x-visible {
+    overflow-x: visible;
+}
+.overflow-y-visible {
+    overflow-y: visible;
+}
+
+// Border Radius
+.br-10 {
+    border-radius: 10px;
+}
+.br-20 {
+    border-radius: 20px;
+}
+.br-30 {
+    border-radius: 30px;
+}
+.br-40 {
+    border-radius: 40px;
+}
+.br-circle {
+    border-radius: 50%;
+}

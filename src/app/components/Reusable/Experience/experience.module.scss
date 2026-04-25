@@ -1,0 +1,111 @@
+@use "@/styles/base/var" as *;
+
+.experienceSection {
+  background: #111118;
+  padding: 10rem 0 8rem;
+}
+
+.container {
+  color: $white;
+
+  h2 {
+    font-size: clamp(5rem, 8vw, 9rem);
+    line-height: 0.92;
+    font-weight: 300;
+    text-align: right;
+    letter-spacing: -1px;
+
+    span {
+      display: block;
+      color: $secondary;
+      font-style: italic;
+      font-family: "AppleGaramond-Light";
+    }
+  }
+}
+
+.topRow {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 3rem;
+  margin-bottom: 5rem;
+}
+
+.intro {
+  max-width: 34ch;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 1.5rem;
+  line-height: 1.3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.list {
+  border-top: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) auto;
+  gap: 2rem;
+  align-items: center;
+  padding: 2.4rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+
+  h3 {
+    font-size: clamp(3rem, 4vw, 4.5rem);
+    font-weight: 300;
+    font-family: "AppleGaramond-Light";
+    line-height: 1;
+  }
+
+  p,
+  span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255, 0.65);
+  }
+
+  span {
+    text-align: right;
+    color: rgba(255, 255, 255, 0.9);
+  }
+}
+
+.resumeWrap {
+  margin-top: 3.2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.resumeBtn {
+  display: inline-block;
+  padding: 0.7rem 3.4rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  color: $white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 900px) {
+  .topRow {
+    grid-template-columns: 1fr;
+  }
+
+  .container h2 {
+    text-align: left;
+  }
+
+  .row {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+
+    span {
+      text-align: left;
+    }
+  }
+}

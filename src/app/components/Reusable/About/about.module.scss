@@ -1,0 +1,55 @@
+@use '@/styles/base/var' as *;
+@use '@/styles/base/mixins' as *;
+
+.about {
+    padding: 12rem 0;
+    position: relative;
+    overflow: hidden;
+    --bubble-opacity: 1;
+    --bubble-blur: 3px;
+    --bubble-scale: 1;
+
+    .bubble {
+        position: absolute;
+        width: clamp(18rem, 40vw, 58rem);
+        aspect-ratio: 1 / 1;
+        border-radius: 50%;
+        right: -12rem;
+        bottom: -10rem;
+        background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0.12) 58%, rgba(255, 255, 255, 0) 74%);
+        opacity: var(--bubble-opacity);
+        filter: blur(var(--bubble-blur));
+        transform: scale(var(--bubble-scale));
+        transition: opacity 0.28s ease, filter 0.28s ease, transform 0.28s ease;
+        pointer-events: none;
+    }
+
+    .container_about {
+        max-width: 70%;
+        position: relative;
+        z-index: 2;
+        > p {
+            color: $white;
+            font-size: 6.4rem;
+            font-weight: 300;
+            font-family: 'AppleGaramond-Light';
+            line-height: 1;
+            text-align: center;
+            margin-bottom: 4rem;
+            letter-spacing: -3px;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .about {
+        padding: 8rem 0;
+        .container_about {
+            max-width: 100%;
+            > p {
+                font-size: clamp(3.4rem, 8.8vw, 5rem);
+                letter-spacing: -1px;
+            }
+        }
+    }
+}
