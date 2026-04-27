@@ -7,7 +7,7 @@ const projects = [
     title: "Nerolac: Space design experience",
     type: "Landing page and visual direction",
     note: "Designed an immersive digital experience to showcase Nerolac’s color systems and product applications within real-world spaces.",
-    image: "https://picsum.photos/seed/project-one/1200/900",
+    image: "/assets/nerolac.png",
   },
   {
     id: 2,
