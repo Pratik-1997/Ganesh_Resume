@@ -23,10 +23,14 @@ const About = () => {
       const opacity = Math.max(0.2, 1 - progress * 0.9);
       const blur = 3 + progress * 15;
       const scale = 1 + progress * 0.12;
+      const focusLine = viewportHeight * 0.2;
+      const isAtFocusZone = rect.top <= focusLine && rect.bottom >= focusLine;
+      const sectionWidth = isAtFocusZone ? "100%" : "99%";
 
       element.style.setProperty("--bubble-opacity", opacity.toFixed(3));
       element.style.setProperty("--bubble-blur", `${blur.toFixed(2)}px`);
       element.style.setProperty("--bubble-scale", scale.toFixed(3));
+      element.style.setProperty("--section-width", sectionWidth);
     };
 
     const onScroll = () => {
