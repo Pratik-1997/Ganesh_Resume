@@ -50,7 +50,7 @@ const About = () => {
       <div className={style.bubble} aria-hidden="true" />
       <div className={`${style.container_about} container`}>
         <p>
-         <i>I&apos;m Ganesh.</i>  Designer by profession, problem-solver by instinct. I&apos;ve spent years crafting visuals for brands, understanding what catches attention. But I wanted to go deeper into how things work, not just how they look.
+         <i>I&apos;m Ganesh.</i> &nbsp; Designer by profession, problem-solver by instinct. I&apos;ve spent years crafting visuals for brands, understanding what catches attention. But I wanted to go deeper into how things work, not just how they look.
         </p>
         <p className="mb-4">
           UI/UX is where that shift happened. Where visuals meet logic, and ideas turn into usable experiences. I&apos;m still exploring that space—learning, building, improving.

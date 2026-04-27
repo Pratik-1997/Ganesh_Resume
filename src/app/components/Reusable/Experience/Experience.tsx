@@ -37,14 +37,14 @@ const Experience = () => {
           {experiences.map((item) => (
             <article className={styles.row} key={item.company}>
               <h3>{item.company}</h3>
-              <p>{item.role}</p>
+              <p className={styles.role}>{item.role}</p>
               <span>{item.period}</span>
             </article>
           ))}
         </div>
 
         <div className={styles.resumeWrap}>
-          <a href="#" className={styles.resumeBtn}>
+          <a href="#" className="btn">
             Download Resume
           </a>
         </div>

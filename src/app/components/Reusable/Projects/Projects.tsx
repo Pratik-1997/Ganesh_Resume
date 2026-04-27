@@ -4,9 +4,9 @@ const projects = [
   { 
     id: 1,
     year: "2025",
-    title: "Out of This World",
+    title: "Nerolac: Space design experience",
     type: "Landing page and visual direction",
-    note: "Created a punchy visual identity with modern interactions.",
+    note: "Designed an immersive digital experience to showcase Nerolac’s color systems and product applications within real-world spaces.",
     image: "https://picsum.photos/seed/project-one/1200/900",
   },
   {
@@ -39,11 +39,13 @@ const Projects = () => {
               className={styles.projectCard}
               style={{
                 top: "8rem",
-                marginTop: index === 0 ? "0rem" : "-22rem",
                 zIndex: 10 + index,
               }}
             >
-              <div className={styles.badges}>
+              <div
+                className={styles.badges}
+                style={{ right: `${1.6 + index * 4.8}rem` }}
+              >
                 <span className={styles.badge}>{String(project.id).padStart(2, "0")}</span>
               </div>
 
@@ -53,7 +55,7 @@ const Projects = () => {
                   <h3>{project.title}</h3>
                   <p className={styles.note}>{project.note}</p>
 
-                  <div className={styles.meta}>
+                  {/* <div className={styles.meta}>
                     <h4>Discipline</h4>
                     <p>{project.type}</p>
                   </div>
@@ -61,7 +63,7 @@ const Projects = () => {
                   <div className={styles.meta}>
                     <h4>Timeline</h4>
                     <p>8-10 weeks</p>
-                  </div>
+                  </div> */}
                 </div>
 
                 <div className={styles.mediaWrap}>

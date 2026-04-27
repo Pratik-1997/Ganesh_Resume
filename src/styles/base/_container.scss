@@ -1,4 +1,8 @@
+@use './mixins' as *;
 .container {
     max-width: 80%;
     margin: 0 auto;
+    @include respond-to(mobile-large) {
+        max-width: 90%;
+    }
 }

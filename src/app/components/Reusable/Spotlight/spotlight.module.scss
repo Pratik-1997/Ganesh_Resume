@@ -17,6 +17,9 @@
         letter-spacing: -2px;
         text-align: center;
         margin-bottom: 3rem;
+        @include respond-to(mobile-large) {
+            font-size: 5.6rem;
+        }
         > .block {
             display: block;
             .fun {
@@ -33,6 +36,9 @@
         font-weight: 400;
         text-align: center;
         letter-spacing: 0;
-        max-width: 50ch;
+        max-width: 60ch;
+        @include respond-to(mobile-large) {
+            font-size: 1.4rem;
+        }
     }
 }

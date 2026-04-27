@@ -1,9 +1,10 @@
 import styles from "./testimonials.module.scss";
+import Image from "next/image";
 
 const testimonials = [
   {
     quote:
-      "Ganesh designs with clarity and intention. Every section felt thoughtful and alive, while still being practical for users.",
+      "Ganesh brings a clear, structured approach to design. He quickly understands the problem, simplifies it, and delivers solutions that are both practical and well-crafted.",
     author: "Product Manager, Interactive Services",
   },
   {
@@ -26,8 +27,8 @@ const Testimonials = () => {
           Apparently, I make work <span>feel easy</span>
         </h2>
           <div className={styles.stickyQuotes} aria-hidden="true">
-            <span className={styles.quoteMark}>“</span>
-            <span className={styles.quoteMark}>”</span>
+            <span className={styles.quoteMark}><img src="/assets/left-colon.svg" alt="quote mark" width={100} height={100} /></span>
+            <span className={styles.quoteMark}><img src="/assets/right-colon.svg" alt="quote mark" width={100} height={100} /></span>
           </div>
         <div className={styles.body}>
 
