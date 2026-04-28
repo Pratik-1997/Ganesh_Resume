@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import "@/styles/globals.scss";
-import Header from "@/app/components/Non-Reusable/Header/Header";
-import Footer from "@/app/components/Non-Reusable/Footer/Footer";
-import SmoothScroll from "@/app/components/Reusable/SmoothScroll/SmoothScroll";
+import LayoutChrome from "@/app/components/Non-Reusable/LayoutChrome/LayoutChrome";
 
+import { Inter } from 'next/font/google'
+
+const inter = Inter({ subsets: ['latin'], weight: ['400', '500', '600', '700', '800', '900'] })
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,11 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        <Header />
-        <SmoothScroll>{children}</SmoothScroll>
-        <Footer />
-      </body>
+      <body className={inter.className}><LayoutChrome>{children}</LayoutChrome></body>
     </html>
   );
 }
