@@ -1,0 +1,101 @@
+@use '@/styles/base/var' as *;
+@use '@/styles/base/mixins' as *;
+
+.page {
+    background-color: #1b1b1b;
+    .header {
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 6rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @include respond-to(mobile-large) {
+            max-width: 100%;
+            padding: 6rem 2rem;
+        }
+        .backButton {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.6rem;
+            font-weight: 500;
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+        }
+        .open_to_work {
+            font-size: 1.6rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            display: flex;
+            gap: 1rem;
+            color: #fff;
+            align-items: center;    
+            @include respond-to(mobile-large) {
+                font-size: 1.2rem;
+            }
+            .circle {
+                width: 1.6rem;
+                height: 1.6rem;
+                border-radius: 50%;
+                background-color: $primary;
+                @include respond-to(mobile-large) {
+                    width: 1.2rem;
+                    height: 1.2rem;
+                }
+            }
+        }
+    }
+}
+
+.section {
+    .container {
+        h1 {
+            font-size: clamp(7.2rem, 12vw, 16rem);
+            color: $white;
+            font-weight: 300;
+            font-family: 'AppleGaramond-Light';
+            line-height: 0.9;
+            letter-spacing: -2px;
+            text-align: center;
+            margin-bottom: 3rem;
+            @include respond-to(mobile-large) {
+                font-size: 5.6rem;
+            }
+                .fun {
+                    font-style: italic;
+                    color: $secondary;
+                    font-family: 'AppleGaramond-LightItalic';
+                    font-weight: 300;
+                }
+            
+        }
+    }
+    .content {
+        padding-top: 6rem;
+        padding-bottom: 12rem;
+        max-width: 844px;
+        margin: 0 auto;
+        @include respond-to(mobile-large) {
+            padding-top: 1rem;
+            padding-bottom: 6rem;
+            max-width: 90%;
+        }
+        > p {
+            font-family: Inter;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 18px;
+            line-height: 32px;
+            letter-spacing: -3%;
+            margin-bottom: 3rem;
+
+        color: #A0A0A0;
+        @include respond-to(mobile-large) {
+
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 2rem;
+        }
+    }
+    }
+}

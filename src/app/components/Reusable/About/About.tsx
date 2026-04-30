@@ -2,6 +2,7 @@
 
 import React, { useEffect, useRef } from "react";
 import style from "./about.module.scss";
+import Link from "next/link";
 
 const About = () => {
   const aboutRef = useRef<HTMLElement | null>(null);
@@ -60,7 +61,7 @@ const About = () => {
           UI/UX is where that shift happened. Where visuals meet logic, and ideas turn into usable experiences. I&apos;m still exploring that space—learning, building, improving.
         </p>
         <div className="d jc-c ai-c">
-        <a href="#" className="btn">About</a>
+        <Link   href="/about-me" className="btn">About</Link>
         </div>
       </div>
     </section>

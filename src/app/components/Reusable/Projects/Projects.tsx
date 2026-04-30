@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./projects.module.scss";
 
 const projects = [
@@ -64,21 +65,21 @@ const Projects = () => {
                     <h4>Timeline</h4>
                     <p>8-10 weeks</p>
                   </div> */}
-                </div>
+                  <Link href={`/case-study/nerolac`} className={styles.caseStudyLink}>Case Study</Link>
+                  </div>
 
-                <div className={styles.mediaWrap}>
-                  <img
-                    src={project.image || `https://picsum.photos/seed/project-${project.id}/1200/900`}
-                    alt={`${project.title} preview`}
-                  />
+                  <div className={styles.mediaWrap}>
+                    <img
+                      src={project.image || `https://picsum.photos/seed/project-${project.id}/1200/900`}
+                      alt={`${project.title} preview`}
+                    />
+                  </div>
                 </div>
-              </div>
-            </article>
-          ))}
+              </article>
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
-  );
-};
-
+      </section>
+    );
+  };
 export default Projects;

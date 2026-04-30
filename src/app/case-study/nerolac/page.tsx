@@ -1,20 +1,49 @@
+'use client'
 import React from 'react'
 import styles from '../style.module.scss'
 import Link from 'next/link'
 
 const nerolac = () => {
+  const handleScrollToTop = (event: React.MouseEvent<HTMLAnchorElement>) => {
+    event.preventDefault()
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  const handleScrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId)
+    if (!section) return
+
+    section.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+
   return (
-    <div className={styles.page}>
+    <div className={styles.page} id="top">
         <div className={styles.header}>
           <Link href="/" className={styles.backButton}> &lt; Back</Link>
         </div>
         <div className={styles.body}>
           <div className={styles.left}>
             <ul>
-              <li>The Problem</li>
-              <li>Solution</li>
-              <li>Impact</li>
-              <li>My Learning</li>
+              <li>
+                <button type="button" onClick={() => handleScrollToSection('problem')}>
+                  The Problem
+                </button>
+              </li>
+              <li>
+                <button type="button" onClick={() => handleScrollToSection('solution')}>
+                  Solution
+                </button>
+              </li>
+              <li>
+                <button type="button" onClick={() => handleScrollToSection('impact')}>
+                  Impact
+                </button>
+              </li>
+              <li>
+                <button type="button" onClick={() => handleScrollToSection('learning')}>
+                  My Learning
+                </button>
+              </li>
             </ul>
           </div>
           <div className={styles.right}>
@@ -23,7 +52,7 @@ const nerolac = () => {
             <div className={`${styles.image} mb-4`}>
               <img src="/assets/nerolac-slate.png" alt="Nerolac"  className="img-fluid" />
             </div>
-            <div className={`${styles.textPart} mb-6`}>
+            <div id="problem" className={`${styles.textPart} mb-6`}>
               <div className={styles.leftBlock}><h4>The Problem</h4></div>
               <div className={styles.rightBlock}>
                 <p>While the concept is strong, the experience leans more toward storytelling than usability. The page presents a lot of information, but without a clear hierarchy, making it harder to scan and understand quickly. More importantly, the connection between the experiment and the actual product benefits isn’t communicated clearly enough. Users are shown impressive data points, but they are not guided on what those mean for their everyday needs.</p>
@@ -33,7 +62,7 @@ const nerolac = () => {
             <div className={`${styles.image} mb-4`}>
               <img src="/assets/nerolac-slate.png" alt="Nerolac"  className="img-fluid" />
             </div>
-            <div className={`${styles.textPart} mb-6`}>
+            <div id="solution" className={`${styles.textPart} mb-6`}>
               <div className={styles.leftBlock}><h4>Solution</h4></div>
               <div className={styles.rightBlock}>
                 <p>While the concept is strong, the experience leans more toward storytelling than usability. The page presents a lot of information, but without a clear hierarchy, making it harder to scan and understand quickly. More importantly, the connection between the experiment and the actual product benefits isn’t communicated clearly enough. Users are shown impressive data points, but they are not guided on what those mean for their everyday needs.</p>
@@ -43,14 +72,14 @@ const nerolac = () => {
             <div className={`${styles.image} mb-4`}>
               <img src="/assets/nerolac-slate.png" alt="Nerolac"  className="img-fluid" />
             </div>
-            <div className={`${styles.textPart} mb-6` }>
+            <div id="impact" className={`${styles.textPart} mb-6` }>
               <div className={styles.leftBlock}><h4>Impact</h4></div>
               <div className={styles.rightBlock}>
                 <p>While the concept is strong, the experience leans more toward storytelling than usability. The page presents a lot of information, but without a clear hierarchy, making it harder to scan and understand quickly. More importantly, the connection between the experiment and the actual product benefits isn’t communicated clearly enough. Users are shown impressive data points, but they are not guided on what those mean for their everyday needs.</p>
                 <p>Another gap is the lack of a strong conversion journey. The page captures attention but doesn’t effectively transition users toward exploring or purchasing the product. As a result, it feels more like a campaign showcase than a product-driven experience.</p>
               </div>
             </div>
-            <div className={styles.uniqueDesign}>
+            <div id="learning" className={styles.uniqueDesign}>
               <div className={styles.uniqueDesignLeftBlock}>
               <h4>Things I learned</h4>
               </div>
@@ -60,6 +89,14 @@ const nerolac = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className={styles.bottomNav}>
+          <Link href="/" className={styles.bottomNavBack}>
+            &larr; Back to portfolio
+          </Link>
+          <a href="#top" className={styles.bottomNavTop} onClick={handleScrollToTop}>
+            &uarr; Top
+          </a>
         </div>
     </div>
   )

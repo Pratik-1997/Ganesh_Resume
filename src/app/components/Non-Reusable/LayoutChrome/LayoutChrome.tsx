@@ -11,7 +11,7 @@ type LayoutChromeProps = {
 
 export default function LayoutChrome({ children }: LayoutChromeProps) {
   const pathname = usePathname();
-  const hideHeaderFooter = pathname === "/case-study/nerolac";
+  const hideHeaderFooter = pathname === "/case-study/nerolac" || pathname === "/about-me";
 
   return (
     <>
