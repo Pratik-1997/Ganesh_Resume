@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import styles from "./style.module.scss";
 import Experience from "../components/Reusable/Experience/Experience";
+import Footer from "../components/Non-Reusable/Footer/Footer";
 
 const page = () => {
   return (
@@ -64,6 +65,7 @@ const page = () => {
         </div>
       </div>
       <Experience />
+      <Footer />
     </div>
   );
 };
