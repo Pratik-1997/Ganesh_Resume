@@ -48,32 +48,32 @@ const nerolac = () => {
           </div>
           <div className={styles.right}>
             <h2 className={styles.slate}>Slate</h2>
-            <h3 className={styles.heading}><span>Vasmol</span>: Bringing a herbal brand into a modern digital experience</h3>
+            <h3 className={styles.heading}><span>Honest Chocolat</span>: Designing a premium e-commerce experience</h3>
             <div className={`${styles.image} mb-4`}>
-              <img src="/assets/Vasmol-casestudy-inside-01.png" alt="Nerolac"  className="img-fluid" />
+              <img src="/assets/Honest-casestudy-inside-01.png" alt="Nerolac"  className="img-fluid" />
             </div>
             <div id="problem" className={`${styles.textPart} mb-6`}>
               <div className={styles.leftBlock}><h4>The Problem</h4></div>
               <div className={styles.rightBlock}>
-                <p>Vasmol is a legacy herbal hair care brand, but its digital presence did not reflect that strength. The website felt outdated, visually cluttered, and disconnected from its natural positioning. Users found it difficult to quickly understand product benefits, navigate across categories, and build trust through the interface. Despite having a strong brand recall offline, the digital experience failed to communicate credibility and clarity effectively.</p>
+                <p>Honest Chocolat, a New Zealand-based premium chocolate brand, needed a digital experience that matched the richness and craftsmanship of its products. The challenge was not just selling chocolates, but conveying quality, indulgence, and trust through the interface. Typical e-commerce patterns felt too generic and transactional, failing to capture the sensory and premium nature of the brand. There was a gap between the physical product experience and how it was presented digitally.</p>
               </div>
             </div>
             <div className={`${styles.image} mb-4`}>
-              <img src="/assets/Vasmol-casestudy-inside-02.png" alt="Nerolac"  className="img-fluid" />
+              <img src="/assets/Honest-casestudy-inside-02.png" alt="Nerolac"  className="img-fluid" />
             </div>
             <div id="solution" className={`${styles.textPart} mb-6`}>
               <div className={styles.leftBlock}><h4>Solution</h4></div>
               <div className={styles.rightBlock}>
-                <p>I redesigned the website with a focus on clarity, trust, and natural storytelling. The approach was to translate Vasmol’s herbal identity into a modern, structured interface that improves usability without losing its essence. A clean layout and clear hierarchy were introduced to simplify navigation, while a nature-led visual system through earthy tones, product imagery, and subtle illustrations reinforced the brand’s authenticity. Product discovery was streamlined with consistent categorisation, and elements like testimonials and brand legacy were highlighted to strengthen trust. The experience balances content and commerce, making it easy for users to explore and take action.</p>
+                <p>I designed a product-first e-commerce experience that focuses on warmth, clarity, and storytelling. The interface uses rich, earthy tones and minimal layouts to create a sense of indulgence without overwhelming the user. Content is structured to guide users naturally from brand introduction to product discovery and purchase while maintaining a strong visual hierarchy. Product cards, category sections, and promotional banners are designed to highlight textures, ingredients, and craftsmanship. The overall experience balances aesthetic appeal with usability, ensuring that browsing feels intuitive while still reflecting the brand’s premium positioning.</p>
               </div>
             </div>
             <div className={`${styles.image} mb-4`}>
-              <img src="/assets/Vasmol-casestudy-inside-03.png" alt="Nerolac"  className="img-fluid" />
+              <img src="/assets/Honest-casestudy-inside-03.png" alt="Nerolac"  className="img-fluid" />
             </div>
             <div id="impact" className={`${styles.textPart} mb-6` }>
               <div className={styles.leftBlock}><h4>Impact</h4></div>
               <div className={styles.rightBlock}>
-                <p>The redesigned experience brings Vasmol closer to its core identity while making it more accessible for modern users. It improves clarity in communication, enhances product discoverability, and builds stronger visual trust. The platform now feels more aligned with user expectations, positioning Vasmol as a credible and contemporary brand in the digital space.</p>
+                <p>The redesigned experience brings the brand closer to its intended premium perception by aligning visuals, content, and interaction. It improves product discoverability, creates a more engaging browsing flow, and strengthens trust through consistent design language. The platform feels less like a generic store and more like a curated chocolate experience, making it easier for users to explore and make purchase decisions.</p>
               </div>
             </div>
             <div id="learning" className={styles.uniqueDesign}>
@@ -81,7 +81,7 @@ const nerolac = () => {
               <h4>Things I learned</h4>
               </div>
               <div className={styles.uniqueDesignRightBlock}>
-                <p>This project helped me understand the nuances of designing for legacy brands, where trust and familiarity are as important as usability. I learned how to translate a traditionally positioned brand into a modern interface without losing its authenticity. It reinforced the importance of visual hierarchy, content balance, and consistency in building user confidence. Most importantly, it strengthened my ability to design experiences that connect brand perception with practical usability.</p>
+                <p>This project helped me understand how to design for sensory-driven products in a digital environment. I learned the importance of restraint using minimal layouts and strong visual hierarchy to let the product stand out. It also reinforced how storytelling, spacing, and imagery can influence perception, especially for premium brands. Most importantly, I learned how to balance e-commerce functionality with brand experience, ensuring the design is both beautiful and usable.</p>
               </div>
             </div>
           </div>
