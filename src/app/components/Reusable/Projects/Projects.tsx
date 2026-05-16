@@ -4,7 +4,7 @@ import styles from "./projects.module.scss";
 const projects = [
   { 
     id: 1,
-    year: "2025",
+    year: "2026",
     title: "Nerolac: Space design experience",
     type: "Landing page and visual direction",
     note: "Designed an immersive digital experience to showcase Nerolac’s color systems and product applications within real-world spaces.",
@@ -13,15 +13,24 @@ const projects = [
   },
   {
     id: 2,
-    year: "2026",
-    title: "Nova Commerce",
+    year: "2024",
+    title: "ZEE5: A hybrid TV + VR streaming experience",
     type: "Product design and UX flow",
-    note: "Redesigned key journeys to improve conversions and clarity.",
+    note: "Created a structured, intuitive TV experience that reduces navigation friction and enhances viewing flow.",
     image: "/assets/kyoorius-casestudy-cover.png",
     caseStudyLink: "/case-study/zee5kyoorius"
   },
   {
     id: 3,
+    year: "2026",
+    title: "Pulse Studio",
+    type: "Portfolio and brand refresh",
+    note: "Built a modular design system and motion-first storytelling.",
+    image: "/assets/Vasmol-Casestudy-cover.png",
+    caseStudyLink: "/case-study/vasmol"
+  },
+  {
+    id: 4,
     year: "2026",
     title: "Pulse Studio",
     type: "Portfolio and brand refresh",
