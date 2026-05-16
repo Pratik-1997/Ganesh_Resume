@@ -26,7 +26,7 @@ const projects = [
     title: "Vasmol: Bringing a herbal brand into a modern digital experience",
     type: "Portfolio and brand refresh",
     note: "Redesigned the website with a natural, clean UI that reflects the brand’s roots while improving clarity and usability.",
-    image: "/assets/Vasmol-casestudy-cover.png",
+    image: "/assets/Vasmol-Casestudy-cover.png",
     caseStudyLink: "/case-study/vasmol"
   },
   {
@@ -35,7 +35,7 @@ const projects = [
     title: "Honest Chocolat: Designing a premium e-commerce experience",
     type: "Portfolio and brand refresh",
     note: "Crafted a warm, product-led website showcasing handcrafted chocolates with refined visuals and intuitive browsing.",
-    image: "/assets/Honest-casestudy-cover.png",
+    image: "/assets/Honest-Casestudy-cover.png",
     caseStudyLink: "/case-study/honestchocolat"
   },
 ];
