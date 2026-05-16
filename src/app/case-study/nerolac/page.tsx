@@ -65,8 +65,8 @@ const nerolac = () => {
             <div id="solution" className={`${styles.textPart} mb-6`}>
               <div className={styles.leftBlock}><h4>Solution</h4></div>
               <div className={styles.rightBlock}>
-                <p>While the concept is strong, the experience leans more toward storytelling than usability. The page presents a lot of information, but without a clear hierarchy, making it harder to scan and understand quickly. More importantly, the connection between the experiment and the actual product benefits isn’t communicated clearly enough. Users are shown impressive data points, but they are not guided on what those mean for their everyday needs.</p>
-                <p>Another gap is the lack of a strong conversion journey. The page captures attention but doesn’t effectively transition users toward exploring or purchasing the product. As a result, it feels more like a campaign showcase than a product-driven experience.</p>
+                <p>The experience can be improved by restructuring the narrative into a more guided flow. The story should begin with a strong hook, move into proof through the experiment, and then clearly translate that proof into tangible product benefits. Instead of presenting raw data, the interface should simplify it into easily understandable insights that connect directly to user value.</p>
+                <p>The product also needs to be introduced earlier in the journey, reinforcing what is being tested and why it matters. Visually, the design should reduce content density and improve readability through clearer sections, shorter text blocks, and better spacing. Adding subtle interactions, such as scroll-based storytelling or highlighted data points, would further enhance engagement without overwhelming the user.</p>
               </div>
             </div>
             <div className={`${styles.image} mb-4`}>
@@ -75,8 +75,7 @@ const nerolac = () => {
             <div id="impact" className={`${styles.textPart} mb-6` }>
               <div className={styles.leftBlock}><h4>Impact</h4></div>
               <div className={styles.rightBlock}>
-                <p>While the concept is strong, the experience leans more toward storytelling than usability. The page presents a lot of information, but without a clear hierarchy, making it harder to scan and understand quickly. More importantly, the connection between the experiment and the actual product benefits isn’t communicated clearly enough. Users are shown impressive data points, but they are not guided on what those mean for their everyday needs.</p>
-                <p>Another gap is the lack of a strong conversion journey. The page captures attention but doesn’t effectively transition users toward exploring or purchasing the product. As a result, it feels more like a campaign showcase than a product-driven experience.</p>
+                <p>With these changes, the page would shift from being an impressive campaign to a more effective product experience. Users would not only understand the experiment but also clearly see how it benefits them. This would improve engagement, strengthen product perception, and create a smoother path toward conversion.</p>
               </div>
             </div>
             <div id="learning" className={styles.uniqueDesign}>
@@ -84,7 +83,7 @@ const nerolac = () => {
               <h4>Things I learned</h4>
               </div>
               <div className={styles.uniqueDesignRightBlock}>
-                <p>The page is designed to be a campaign showcase, with a focus on storytelling and the experiment. The design is minimalistic and clean, with a focus on the content and the images.</p>
+                <p>This project reinforced how strong storytelling alone isn’t enough if it doesn’t clearly connect to the product. While the campaign was visually engaging, the real challenge was translating that narrative into something users could quickly understand and act on.</p>
                 <p>I learned the importance of structuring content so that users don’t just experience the story, but also see its relevance to their needs. Simplifying information, improving hierarchy, and bringing the product into focus earlier made a significant difference in clarity and intent.</p>
               </div>
             </div>

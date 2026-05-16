@@ -23,20 +23,20 @@ const projects = [
   {
     id: 3,
     year: "2026",
-    title: "Pulse Studio",
+    title: "Vasmol: Bringing a herbal brand into a modern digital experience",
     type: "Portfolio and brand refresh",
-    note: "Built a modular design system and motion-first storytelling.",
+    note: "Redesigned the website with a natural, clean UI that reflects the brand’s roots while improving clarity and usability.",
     image: "/assets/Vasmol-Casestudy-cover.png",
     caseStudyLink: "/case-study/vasmol"
   },
   {
     id: 4,
     year: "2026",
-    title: "Pulse Studio",
+    title: "Honest Chocolat: Designing a premium e-commerce experience",
     type: "Portfolio and brand refresh",
-    note: "Built a modular design system and motion-first storytelling.",
-    image: "/assets/Vasmol-Casestudy-cover.png",
-    caseStudyLink: "/case-study/vasmol"
+    note: "Crafted a warm, product-led website showcasing handcrafted chocolates with refined visuals and intuitive browsing.",
+    image: "/assets/Honest-casestudy-cover.png",
+    caseStudyLink: "case-study/honestchocolat"
   },
 ];
 

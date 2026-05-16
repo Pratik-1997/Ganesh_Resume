@@ -48,34 +48,32 @@ const nerolac = () => {
           </div>
           <div className={styles.right}>
             <h2 className={styles.slate}>Slate</h2>
-            <h3 className={styles.heading}><span>Zee:5</span>:A hybrid TV + VR streaming experience</h3>
+            <h3 className={styles.heading}><span>Vasmol</span>: Bringing a herbal brand into a modern digital experience</h3>
             <div className={`${styles.image} mb-4`}>
-              <img src="/assets/kyoorius-image-01.png" alt="Nerolac"  className="img-fluid" />
+              <img src="/assets/Vasmol-casestudy-inside-01.png" alt="Nerolac"  className="img-fluid" />
             </div>
             <div id="problem" className={`${styles.textPart} mb-6`}>
               <div className={styles.leftBlock}><h4>The Problem</h4></div>
               <div className={styles.rightBlock}>
-                <p>OTT platforms on TV are built for passive consumption, but not for exploration. Navigation is slow, content discovery is repetitive, and interaction is limited to basic remote inputs.</p>
-                <p>For a platform like ZEE5—with diverse content across languages and formats—this creates friction:users spend more time searching than actually watching.</p>
-                <p>There’s also a missed opportunity to leverage emerging interaction models like voice and immersive viewing.</p>
+                <p>Vasmol is a legacy herbal hair care brand, but its digital presence did not reflect that strength. The website felt outdated, visually cluttered, and disconnected from its natural positioning. Users found it difficult to quickly understand product benefits, navigate across categories, and build trust through the interface. Despite having a strong brand recall offline, the digital experience failed to communicate credibility and clarity effectively.</p>
               </div>
             </div>
             <div className={`${styles.image} mb-4`}>
-              <img src="/assets/Kyoorius-casestudy-inside-02.png" alt="Nerolac"  className="img-fluid" />
+              <img src="/assets/Vasmol-casestudy-inside-02.png" alt="Nerolac"  className="img-fluid" />
             </div>
             <div id="solution" className={`${styles.textPart} mb-6`}>
               <div className={styles.leftBlock}><h4>Solution</h4></div>
               <div className={styles.rightBlock}>
-                <p>I reimagined the ZEE5 TV experience as a hybrid interaction system that blends traditional remote navigation with more intuitive and immersive inputs. The idea was to make content discovery faster, clearer, and more engaging through a structured homepage, quick access to languages and categories, expanded previews, voice and typed search, simplified onboarding, and real-time sports/content pages. I also explored subtle monetisation touchpoints like contextual banners and pop-ups, along with a VR-enabled exploration layer to make viewing feel more immersive. Overall, the goal was to reduce user effort and increase engagement..</p>
+                <p>I redesigned the website with a focus on clarity, trust, and natural storytelling. The approach was to translate Vasmol’s herbal identity into a modern, structured interface that improves usability without losing its essence. A clean layout and clear hierarchy were introduced to simplify navigation, while a nature-led visual system through earthy tones, product imagery, and subtle illustrations reinforced the brand’s authenticity. Product discovery was streamlined with consistent categorisation, and elements like testimonials and brand legacy were highlighted to strengthen trust. The experience balances content and commerce, making it easy for users to explore and take action.</p>
               </div>
             </div>
             <div className={`${styles.image} mb-4`}>
-              <img src="/assets/Kyoorius-casestudy-inside-03.png" alt="Nerolac"  className="img-fluid" />
+              <img src="/assets/Vasmol-casestudy-inside-03.png" alt="Nerolac"  className="img-fluid" />
             </div>
             <div id="impact" className={`${styles.textPart} mb-6` }>
               <div className={styles.leftBlock}><h4>Impact</h4></div>
               <div className={styles.rightBlock}>
-                <p>The project was recognized with the Kyoorius Young Blood Award, which strengthened the value of the idea and its execution. More than just an award-winning concept, the design presents a scalable TV interface system, a more engaging way to discover content, and new interaction possibilities for OTT platforms. It helps position ZEE5 not only as a streaming platform, but as a more interactive and immersive entertainment experience.</p>
+                <p>The redesigned experience brings Vasmol closer to its core identity while making it more accessible for modern users. It improves clarity in communication, enhances product discoverability, and builds stronger visual trust. The platform now feels more aligned with user expectations, positioning Vasmol as a credible and contemporary brand in the digital space.</p>
               </div>
             </div>
             <div id="learning" className={styles.uniqueDesign}>
@@ -83,7 +81,7 @@ const nerolac = () => {
               <h4>Things I learned</h4>
               </div>
               <div className={styles.uniqueDesignRightBlock}>
-                <p>Designing for TV is fundamentally different from mobile or web because distance, input limitations, and user attention change the way people interact with content. This project helped me understand how to design for lean-back experiences while still giving users control, how to create strong hierarchy and focus for large screens, and how to balance innovation like VR and voice with practical usability. It also taught me how to design systems that connect content, interaction, and business goals. Most importantly, I learned to think beyond UI and move deeper into experience design, where interaction, content, and context work together.</p>
+                <p>This project helped me understand the nuances of designing for legacy brands, where trust and familiarity are as important as usability. I learned how to translate a traditionally positioned brand into a modern interface without losing its authenticity. It reinforced the importance of visual hierarchy, content balance, and consistency in building user confidence. Most importantly, it strengthened my ability to design experiences that connect brand perception with practical usability.</p>
               </div>
             </div>
           </div>
