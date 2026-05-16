@@ -22,7 +22,7 @@ const projects = [
   },
   {
     id: 3,
-    year: "2026",
+    year: "2025",
     title: "Vasmol: Bringing a herbal brand into a modern digital experience",
     type: "Portfolio and brand refresh",
     note: "Redesigned the website with a natural, clean UI that reflects the brand’s roots while improving clarity and usability.",
@@ -31,7 +31,7 @@ const projects = [
   },
   {
     id: 4,
-    year: "2026",
+    year: "2025",
     title: "Honest Chocolat: Designing a premium e-commerce experience",
     type: "Portfolio and brand refresh",
     note: "Crafted a warm, product-led website showcasing handcrafted chocolates with refined visuals and intuitive browsing.",
