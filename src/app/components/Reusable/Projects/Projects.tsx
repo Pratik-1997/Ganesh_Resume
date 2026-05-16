@@ -8,7 +8,8 @@ const projects = [
     title: "Nerolac: Space design experience",
     type: "Landing page and visual direction",
     note: "Designed an immersive digital experience to showcase Nerolac’s color systems and product applications within real-world spaces.",
-    image: "/assets/nerolac.png",
+    image: "/assets/Nerolac-casestudy-cover.png",
+    caseStudyLink: "/case-study/nerolac"
   },
   {
     id: 2,
@@ -16,7 +17,8 @@ const projects = [
     title: "Nova Commerce",
     type: "Product design and UX flow",
     note: "Redesigned key journeys to improve conversions and clarity.",
-    image: "",
+    image: "/assets/kyoorius-casestudy-cover.png",
+    caseStudyLink: "/case-study/zee5kyoorius"
   },
   {
     id: 3,
@@ -24,7 +26,8 @@ const projects = [
     title: "Pulse Studio",
     type: "Portfolio and brand refresh",
     note: "Built a modular design system and motion-first storytelling.",
-    image: "https://picsum.photos/seed/project-three/1200/900",
+    image: "/assets/Vasmol-Casestudy-cover.png",
+    caseStudyLink: "/case-study/vasmol"
   },
 ];
 
@@ -65,7 +68,7 @@ const Projects = () => {
                     <h4>Timeline</h4>
                     <p>8-10 weeks</p>
                   </div> */}
-                  <Link href={`/case-study/nerolac`} className={styles.caseStudyLink}>Case Study</Link>
+                  <Link href={project.caseStudyLink} className={styles.caseStudyLink}>Case Study</Link>
                   </div>
 
                   <div className={styles.mediaWrap}>
