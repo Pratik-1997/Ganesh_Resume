@@ -48,7 +48,7 @@ const nerolac = () => {
           </div>
           <div className={styles.right}>
             <h2 className={styles.slate}>Slate</h2>
-            <h3 className={styles.heading}><span>Vasmol</span>: Bringing a herbal brand into a modern digital experience</h3>
+            <h3 className={styles.heading}>A nature-led website <span>redesign for Vasmol,</span> improving product discovery while reinforcing the brand’s herbal hair care positioning.</h3>
             <div className={`${styles.image} mb-4`}>
               <img src="/assets/Vasmol-casestudy-inside-01.png" alt="Nerolac"  className="img-fluid" />
             </div>

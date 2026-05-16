@@ -48,7 +48,7 @@ const nerolac = () => {
           </div>
           <div className={styles.right}>
             <h2 className={styles.slate}>Slate</h2>
-            <h3 className={styles.heading}><span>Zee:5</span>:A hybrid TV + VR streaming experience</h3>
+            <h3 className={styles.heading}><span>A Kyoorius Young Blood-winning</span> ZEE5 TV app concept, designed to make content discovery more intuitive through remote, voice, and VR-based interactions.</h3>
             <div className={`${styles.image} mb-4`}>
               <img src="/assets/kyoorius-image-01.png" alt="Nerolac"  className="img-fluid" />
             </div>

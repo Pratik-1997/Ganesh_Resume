@@ -48,7 +48,7 @@ const nerolac = () => {
           </div>
           <div className={styles.right}>
             <h2 className={styles.slate}>Slate</h2>
-            <h3 className={styles.heading}><span>Honest Chocolat</span>: Designing a premium e-commerce experience</h3>
+            <h3 className={styles.heading}>A premium e-commerce website for <span>Honest Chocolat,</span> crafted to showcase handcrafted chocolates through warm visuals, storytelling, and intuitive browsing.</h3>
             <div className={`${styles.image} mb-4`}>
               <img src="/assets/Honest-casestudy-inside-01.png" alt="Nerolac"  className="img-fluid" />
             </div>
