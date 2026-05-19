@@ -4,18 +4,18 @@ import Image from "next/image";
 const testimonials = [
   {
     quote:
-      "Ganesh brings a clear, structured approach to design. He quickly understands the problem, simplifies it, and delivers solutions that are both practical and well-crafted.",
-    author: "Product Manager, Interactive Services",
+      "Ganesh has a clear and structured way of approaching design. He understands the problem quickly and knows how to simplify it. His solutions are practical, thoughtful, and visually well-crafted. He brings a good balance of speed, clarity, and quality to every project.",
+    author: "Apurva Shirke, Senior Designer",
   },
   {
     quote:
-      "Working with Ganesh is seamless. He communicates clearly, takes ownership, and always turns complexity into usable design.",
-    author: "Creative Lead, Digital Agency",
+      "What stands out about Ganesh is his ability to balance aesthetics with function. His work is visually strong, but it also solves the problem in a simple and usable way.",
+    author: "Vishal Wagh, Associate Creative Director",
   },
   {
     quote:
-      "He balances visual craft with UX thinking, and that combination helped us ship faster without sacrificing quality.",
-    author: "Founder, Startup Team",
+      "Ganesh helped us bring structure to our ideas and move faster without compromising on quality. His graphic design background added a strong visual layer, while his UX thinking kept the experience simple and purposeful. The process felt collaborative, focused, and easy from start to finish.",
+    author: "Frenny Shah, Creative Director",
   },
 ];
 
