@@ -59,7 +59,7 @@ const nerolac = () => {
               </div>
             </div>
             <div className={`${styles.image} mb-4`}>
-              <img src="/assets/Vasmol-casestudy-inside-02.png" alt="Nerolac"  className="img-fluid" />
+              <img src="/assets/Vasmol-Animated-02.gif" alt="Nerolac"  className="img-fluid" />
             </div>
             <div id="solution" className={`${styles.textPart} mb-6`}>
               <div className={styles.leftBlock}><h4>Solution</h4></div>
@@ -68,7 +68,7 @@ const nerolac = () => {
               </div>
             </div>
             <div className={`${styles.image} mb-4`}>
-              <img src="/assets/Vasmol-Animated-02.gif" alt="Nerolac"  className="img-fluid" />
+              <img src="/assets/Vasmol-casestudy-inside-03.png" alt="Nerolac"  className="img-fluid" />
             </div>
             <div id="impact" className={`${styles.textPart} mb-6` }>
               <div className={styles.leftBlock}><h4>Impact</h4></div>
