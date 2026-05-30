@@ -44,7 +44,7 @@ const Experience = () => {
         </div>
 
         <div className={styles.resumeWrap}>
-          <a href="/assets/Ganesh_Johare_Resume.pdf" target="_blank" className="btn">
+          <a href="/assets/Ganesh_Johare_Resume-2026.pdf" target="_blank" className="btn">
             Download Resume
           </a>
         </div>
